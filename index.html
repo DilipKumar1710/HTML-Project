@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="fname">Enter First Name</label>
+            <input id="fname" type="text" class="input-box"><br /><br />
+            <label for="mname">Enter Middle Name</label>
+            <input type="text" id="mname" class="input-box"><br /><br />
+            <label for="lname">Enter Last Name</label>
+            <input type="text" id="lname" class="input-box" />
+        </div>
+        <br />
+        <br />
+        <p>Please select your skills</p>
+        <input type="checkbox" name="skill1" value="python" id="">Python
+        <input type="checkbox" name="skill2" value="javascript" id="">Javascript
+        <input type="checkbox" name="skill3" value="java" id="">Java
+        <br />
+        <br />
+        <p>Please select your Gender</p>
+        <input type="radio" name="gender" value="male" id="">Male
+        <input type="radio" name="gender" value="female" id="">Female
+        <input type="radio" name="gender" value="others" id="">Others
+        <br />
+        <br />
+        <p>Please select your preferred job location</p>
+        <select name="locations" id="">
+            <option value="hyderabad">Hyderabad</option>
+            <option value="banglore">Banglore</option>
+            <option value="pune">Pune</option>
+            <option value="chennai">Chennai</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" name="Submit" />
+        <script type="text/javascript" src="index.js"></script>
+    </form>
+
+</html>
